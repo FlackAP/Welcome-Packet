@@ -96,11 +96,11 @@ pre strong {
 
 #nav {
     height: 100%;
-    width: 320px;
-    left: -276px;
+    width: 274px;
+    left: -231px;
     font-size: 15px;
     line-height: 30px;
-    background: #202f37;
+    background: #202f37 url('/images/pattern.png?1380830431');
     overflow: hidden;
     cursor: pointer;
     position: fixed;
@@ -151,7 +151,7 @@ pre strong {
     width: 44px;
     right: 0;
     cursor: pointer;
-    background: #393F4B url('/images/list-icon.png') no-repeat 14px 14px;
+    background: #393F4B url('/images/list-icon.png') no-repeat 8px 12px;
     position: absolute;
     z-index: 2222;
     
@@ -170,7 +170,7 @@ pre strong {
     width: 8px;
     margin: 44px 18px;
     right: 0;
-    background: #232121;
+    background: #232121 url('/images/pattern.png?1380830431');;
     position: absolute;
     z-index: 1111;
     opacity: 0;

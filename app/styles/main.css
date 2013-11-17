@@ -217,6 +217,24 @@ pre strong {
     display: block;
 }
 
+/*--HEADER--*/
+
+.header {
+    width: 100%;
+    background: rgb(190, 125, 8) url("images/pattern.png");
+    margin: 0 auto;
+    margin-bottom: 31px;
+    padding: 12px;
+    height: 225px;
+}
+
+.header img {
+    margin: 0 auto;
+    display: block;
+
+}
+
+
 /*--MAIN--*/
 
 #main {

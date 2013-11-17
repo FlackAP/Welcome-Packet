@@ -221,11 +221,12 @@ pre strong {
 
 .header {
     width: 100%;
-    background: rgb(190, 125, 8) url("images/pattern.png");
+    background: #CE822C;
     margin: 0 auto;
     margin-bottom: 31px;
     padding: 12px;
     height: 225px;
+    position:relative;
 }
 
 .header img {
@@ -234,6 +235,26 @@ pre strong {
 
 }
 
+.container {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.triangle {
+   position: absolute;
+    z-index: 1;
+    left: -45px;
+    bottom: -61px;
+    border-top: 20px solid #fff;
+    border-right: 31px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 32px solid transparent;
+    width: 0;
+    height: 0;
+    border-top: 31px solid #CE822C;
+}
 
 /*--MAIN--*/
 
@@ -241,7 +262,7 @@ pre strong {
     width: 85%;
     max-width: 684px;
     margin: 0 auto;
-    padding: 50px 0 50px 44px;
+    padding: 4px 0 50px 44px;
     
     -webkit-transition: opacity .35s ease-out;
        -moz-transition: opacity .35s ease-out;

@@ -96,8 +96,8 @@ pre strong {
 
 #nav {
     height: 100%;
-    width: 274px;
-    left: -231px;
+    width: 244px;
+    left: -202px;
     font-size: 15px;
     line-height: 30px;
     background: #202f37 url('/images/pattern.png?1380830431');
@@ -126,7 +126,7 @@ pre strong {
 
 #wrapper p {
     margin: 0;
-    font-size: 13px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
     color: #777;
@@ -279,7 +279,7 @@ pre strong {
 }
 
 #main > div {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #main img {
@@ -290,6 +290,33 @@ pre strong {
        -moz-border-radius: 3px;
          -o-border-radius: 3px;
             border-radius: 3px;
+}
+
+.divider {
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    height:200px;
+    width:100%;
+    margin-bottom:30px;
+    margin-top: -45px;
+    border-top: 5px solid rgb(247, 195, 31);
+    border-bottom: 5px solid rgb(247, 195, 31);
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width:599px) {
+    .divider {
+        height:115px;
+    }
+}
+
+@media screen and (max-width:500px) {
+ .header img {
+    width:440px;
+    margin:0 auto;
+ }
 }
 
 

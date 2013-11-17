@@ -100,7 +100,7 @@ pre strong {
     left: -276px;
     font-size: 15px;
     line-height: 30px;
-    background: #212121;
+    background: #202f37;
     overflow: hidden;
     cursor: pointer;
     position: fixed;
@@ -151,7 +151,7 @@ pre strong {
     width: 44px;
     right: 0;
     cursor: pointer;
-    background: #292929 url('../img/icon.png') no-repeat 14px 14px;
+    background: #393F4B url('/images/list-icon.png') no-repeat 14px 14px;
     position: absolute;
     z-index: 2222;
     
@@ -162,7 +162,7 @@ pre strong {
 }
 
 #toggle:hover {
-    background-color: #333;
+    background-color: #373B3F;
 }
 
 #scrollbar {
@@ -170,7 +170,7 @@ pre strong {
     width: 8px;
     margin: 44px 18px;
     right: 0;
-    background: #444;
+    background: #232121;
     position: absolute;
     z-index: 1111;
     opacity: 0;
@@ -189,7 +189,7 @@ pre strong {
 #scrollbar > span {
     height: 50%;
     width: 100%;
-    background: #888;
+    background: #FFF;
     position: absolute;
 
     -webkit-border-radius: 4px;

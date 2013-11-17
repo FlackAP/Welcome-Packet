@@ -62,23 +62,18 @@ $(document).ready(function() {
 		toggleNav();
 	}
 
-	var page = document.getElementById('page'),
-		internal = wrapper.getElementsByTagName('a');
-	
-	for (var i = 0; i < internal.length; i++) {
-		internal[i].addEventListener('click', function(e) {
-			e.preventDefault();
-	
-			var anchor = this.getAttribute('href').replace('#', ''),
-				target = document.getElementById(anchor).offsetTop -35;
-	
-			if ( target == '' || target <= 0 ) {
-				var target = '0';
-			}
-	
-			scrollTo(0, target);
-			toggleNav();
-		})
-	}
+	$('a[href*=#]:not([href=#])').click(function() {
+    	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      		var target = $(this.hash);
+      		target = target.length ? target : $('[name=' + this.hash.slice(1) +']'
+      		);
+      		if (target.length) {
+        		$('html,body').animate({
+          			scrollTop: target.offset().top
+        		}, 1000);
+        	return false;
+      		}
+    	}
+    });    
 	
 })	

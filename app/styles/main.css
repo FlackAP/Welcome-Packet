@@ -216,3 +216,42 @@ pre strong {
 [data-nav="open"] #overlay {
     display: block;
 }
+
+/*--MAIN--*/
+
+#main {
+    width: 85%;
+    float:left;
+    max-width: 684px;
+    margin: 0 auto;
+    padding: 50px 0 50px 44px;
+    
+    -webkit-transition: opacity .35s ease-out;
+       -moz-transition: opacity .35s ease-out;
+         -o-transition: opacity .35s ease-out;
+            transition: opacity .35s ease-out;
+}
+
+[data-nav="open"] #main {
+    opacity: .35;
+}
+
+#main p {
+    word-wrap: break-word;
+}
+
+#main > div {
+    margin-bottom: 50px;
+}
+
+#main img {
+    max-width: 100%;
+    display: block;
+
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+         -o-border-radius: 3px;
+            border-radius: 3px;
+}
+
+

@@ -43,15 +43,6 @@ a:hover, a:active {
     color: #53667a;
 }
 
-em {
-    font-style: italic;
-    color: #676767;
-}
-
-em strong {
-    color: inherit;
-}
-
 strong {
     font-weight: 600;
     color: #201b18;
@@ -67,29 +58,6 @@ h1 {font-size: 30px;}
 h2 {font-size: 24px;}
 h3 {font-size: 20px;}
 h4 {font-size: 16px;}
-
-pre, code {
-    padding: 3px 6px;
-    color: #a9aaaf;
-    overflow: hidden;
-    font: 400 15px/24px monospace;
-    background: #202326;
-
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-         -o-border-radius: 3px;
-            border-radius: 3px;
-}
-
-pre {
-    margin: 0 0 15px 0;
-    padding: 15px 20px;
-    overflow-x: auto;
-}
-
-pre strong {
-    color: #fff;
-}
 
 
 /*--NAV--*/
@@ -120,7 +88,7 @@ pre strong {
 #wrapper {
     max-height: 100%;
     width: 344px;
-    padding: 44px 88px 22px 44px;
+    padding: 52px 88px 22px 44px;
     overflow-x: auto;
 }
 
@@ -300,8 +268,8 @@ pre strong {
     width:100%;
     margin-bottom:30px;
     margin-top: -45px;
-    border-top: 5px solid rgb(247, 195, 31);
-    border-bottom: 5px solid rgb(247, 195, 31);
+    border-top: 5px solid #CE822C;
+    border-bottom: 5px solid #CE822C;
 }
 
 /*RESPONSIVE*/

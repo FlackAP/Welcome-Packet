@@ -205,15 +205,15 @@ h4 {font-size: 16px;}
     margin-bottom: 31px;
     padding: 12px;
     padding-right:0;
-    height: 400px;
+    height: 372px;
     position:relative;
 }
 
 .header-image {
     background-size: cover;
-    background-position: 122% 51%;
+    background-position: 18% 51%;
     position: relative;
-    height: 226px;
+    height: 213px;
     width: 100%;
     margin-bottom: 30px;
     margin-top: -45px;
@@ -222,27 +222,32 @@ h4 {font-size: 16px;}
 }
 
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
-    width: 100%;
-
+    width: 88%;
+    max-width: 750px;
+    margin: 0 auto;
+    height: 108px;
+    position: relative;
+    padding: 4px 0 50px 44px;
 }
 
 .container h1 {
-    font-size:60px;
+    font-size:72px;
     color:white;
 }
 
 .container h2 {
     font-family: 'Tisa';
+    color: white;
+    position: absolute;
+    font-size: 34px;
+    bottom: -48px;
 }
 
 .triangle {
-   position: absolute;
+    position: absolute;
     z-index: 1;
-    left: -45px;
-    bottom: -226px;
+    left: 53px;
+    bottom: -101px;
     border-top: 20px solid #fff;
     border-right: 31px solid transparent;
     border-bottom: 19px solid transparent;
@@ -253,6 +258,8 @@ h4 {font-size: 16px;}
 }
 
 /*--MAIN--*/
+
+
 
 #main {
     width: 85%;
@@ -296,22 +303,41 @@ h4 {font-size: 16px;}
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:720px) {
     * {
         margin-right:0px;
     }
 
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .header-image {
+        height:100px;
+    }
+
     .header {
-        height:180px;
+        height:200px;
         width:100%;
     }
 
-    .header img {
-        margin:0 auto;
-        height:140px;
-        width:300px;
-        margin-top:8px;
-        margin-left:20px;
+    .header h1 {
+        font-size: 34px;
+        margin-top: -24px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+        line-height:22px;
+        margin-bottom: 63px;
+    }
+
+    .triangle {
+        display:none;
     }
 }
 

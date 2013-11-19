@@ -93,6 +93,11 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
     border-top: 31px solid #D2B42A;
 }
 
+.main .container h1 {
+	font-family:"Tisa";
+	color: rgb(65, 65, 65);
+}
+
 @media screen and (max-width:600px) {
 	.container h1 {
 		font-size:40px;
@@ -100,5 +105,9 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 
 	.container h2 {
 		font-size: 22px;
+	}
+
+	.header-image {
+		background-position: 43% 51%;
 	}
 }

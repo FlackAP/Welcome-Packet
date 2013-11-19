@@ -1,13 +1,104 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:900,400,300);
 
-body {
-	background: #CE822C;
-	font-family: 'Merriweather', serif;
-	font-weight: 900;
+@font-face {
+font-family: 'TisaPro';
+src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Tisa';
+    src: url("/styles/fonts/Tisa/TisaPro.otf") format('opentype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    outline: none;
+    border: none;
+
+    -webkit-font-smoothing: antialiased;
+       -moz-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+.header {
+    font-family: 'TisaPro';
+    width: 100%;
+    background: #D2B42A;
+    margin: 0 auto;
+    margin-bottom: 31px;
+    padding-right:0;
+    min-height: 356px;
+    position:relative;
+}
+
+.header-image {
+    background-size: cover;
+    background-position: 18% 51%;
+    position: relative;
+    height: 213px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .container {
-	width:100%;
-	margin:0 auto;
-	display:inline-block;
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 108px;
+    position: relative;
+    padding: 4px 0 50px 44px;
+}
+
+.container h1 {
+    font-size: 63px;
+    color:white;
+}
+
+.row {
+	position:relative;	
+	min-height: 100px
+}
+
+.container h2 {
+    font-family: 'Tisa';
+    color: white;
+    font-size: 34px;
+    margin-bottom:-26px;
+
+}
+
+.triangle {
+    position: absolute;
+    z-index: 1;
+    left: 53px;
+    bottom: -70px;
+    border-top: 20px solid #fff;
+    border-right: 31px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 32px solid transparent;
+    width: 0;
+    height: 0;
+    border-top: 31px solid #D2B42A;
+}
+
+@media screen and (max-width:600px) {
+	.container h1 {
+		font-size:40px;
+	}
+
+	.container h2 {
+		font-size: 22px;
+	}
 }

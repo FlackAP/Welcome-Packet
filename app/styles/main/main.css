@@ -224,7 +224,7 @@ h4 {font-size: 16px;}
 
 .container {
     width: 92%;
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
     height: 108px;
     position: relative;
@@ -264,7 +264,7 @@ h4 {font-size: 16px;}
 
 #main {
     width: 85%;
-    max-width: 1185px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 4px 0 50px 44px;
 

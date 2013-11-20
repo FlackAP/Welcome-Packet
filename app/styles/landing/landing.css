@@ -47,7 +47,7 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
     position: relative;
     height: 213px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     margin-top: -45px;
     margin-left: 0;
     margin-right: 0;
@@ -55,7 +55,7 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 
 .container {
     width: 88%;
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
     min-height: 108px;
     position: relative;
@@ -63,7 +63,7 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 }
 
 .container h1 {
-    font-size: 63px;
+    font-size: 71px;
     color:white;
 }
 

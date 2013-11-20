@@ -146,11 +146,23 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
   font-size: 25px;
   font-weight: bold;
   display: block;
-  background: #20B5FC;
+  background: #20a3d9;
   color: #ffffff;
   text-transform: uppercase;
   position: relative;
 }
+
+#cssmenu > ul > li > a:hover {
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background:  #1b93c4;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+}
+
 
 
 #cssmenu > ul > li > a:hover {

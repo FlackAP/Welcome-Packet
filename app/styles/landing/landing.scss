@@ -1,16 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:900,400,300);
 
-@font-face {
-font-family: 'TisaPro';
-src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
-}
-
-@font-face {
-    font-family: 'Tisa';
-    src: url("/styles/fonts/Tisa/TisaPro.otf") format('opentype');
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +19,6 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 
 
 .header {
-    font-family: 'TisaPro';
     width: 100%;
     background: #D2B42A;
     margin: 0 auto;
@@ -41,16 +29,16 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 }
 
 .header-image {
-	background-image: url(/images/map.png);
-    background-size: cover;
-    background-position: 18% 51%;
-    position: relative;
-    height: 213px;
-    width: 100%;
-    margin-bottom: 5px;
-    margin-top: -45px;
-    margin-left: 0;
-    margin-right: 0;
+  background-image: image_url('map.png');
+  background-size: cover;
+  background-position: 18% 51%;
+  position: relative;
+  height: 213px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: -45px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .container {
@@ -68,12 +56,11 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 }
 
 .row {
-	position:relative;	
-	min-height: 100px
+  position:relative;  
+  min-height: 100px
 }
 
 .container h2 {
-    font-family: 'Tisa';
     color: white;
     font-size: 34px;
     margin-bottom:-26px;
@@ -81,22 +68,21 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 }
 
 .triangle {
-	position: absolute;
-	z-index: 1;
-	left: 20px;
-	bottom: -64px;
-	border-top: 20px solid #D2B42A;
-	border-right: 25px solid transparent;
-	border-bottom: 20px solid transparent;
-	border-left: 25px solid transparent;
-	width: 0;
-	height: 0;
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  bottom: -64px;
+  border-top: 20px solid #D2B42A;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 25px solid transparent;
+  width: 0;
+  height: 0;
 }
 
 .main .container h1 {
-	font-family:"Tisa";
-	color: rgb(65, 65, 65);
-	font-size: 44px;
+  color: rgb(65, 65, 65);
+  font-size: 44px;
 }
 
 /*DropDown*/
@@ -105,18 +91,17 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 #cssmenu ul,
 #cssmenu li,
 #cssmenu a {
-	width: 100%;
-	height: 50px;
-  	margin: 0;
-  	padding: 0;
- 	border: 0;
-  	list-style: none;
-  	font-weight: normal;
-  	text-decoration: none;
-  	line-height: 1;
-  	font-family: 'Tisa';
-  	font-size: 14px;
-  	position: relative;
+  width: 100%;
+  height: 50px;
+    margin: 0;
+    padding: 0;
+  border: 0;
+    list-style: none;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 14px;
+    position: relative;
 }
 
 #cssmenu a {
@@ -124,17 +109,17 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 }
 
 .click {
-	position: absolute;
-	left: 20px;
-	top: 10px;
-	font-size: 22px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-size: 22px;
 }
 
 #cssmenu a img {
-	position: absolute;
-	right: 18px;
-	width: 30px;
-	top: 12px;
+  position: absolute;
+  right: 18px;
+  width: 30px;
+  top: 12px;
 }
 
 #cssmenu {
@@ -183,11 +168,11 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
   border-top: 0;
 }
 #cssmenu ul ul a {
-	padding: 10px;
-	padding-top: 15px;
-	display: block;
-	color: black;
-	font-size: 24px;
+  padding: 10px;
+  padding-top: 15px;
+  display: block;
+  color: black;
+  font-size: 24px;
 }
 #cssmenu ul ul a:hover {
   color: #20B5FC;;
@@ -202,49 +187,49 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 /*Responsiveness*/
 
 @media screen and (max-width:900px) {
-	.container h1 {
-		line-height: 63px;
-	}
+  .container h1 {
+    line-height: 63px;
+  }
 
 }
 
 @media screen and (max-width:600px) {
-	.container h1 {
-		font-size:40px;
-		line-height: 41px;
-	}
+  .container h1 {
+    font-size:40px;
+    line-height: 41px;
+  }
 
-	.container h2 {
-		font-size: 22px;
-	}
+  .container h2 {
+    font-size: 22px;
+  }
 
-	.header-image {
-		background-position: 43% 51%;
-	}
+  .header-image {
+    background-position: 43% 51%;
+  }
 
-	.main .container h1 {
-		font-size: 30px;
-		margin-bottom: 13px;
+  .main .container h1 {
+    font-size: 30px;
+    margin-bottom: 13px;
 
-	}
+  }
 
-	.container {
-		width: 95%;
-		max-width: 1200px;
-		margin: 0 auto;
-		min-height: 108px;
-		position: relative;
-		padding: 4px 0 50px 44px;
-		padding-left: 0px;
-		
-	}
+  .container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 108px;
+    position: relative;
+    padding: 4px 0 50px 44px;
+    padding-left: 0px;
+    
+  }
 
 }
 
 @media screen and (max-width:540px) {
-	.click {
-		top:10px;
-	}
+  .click {
+    top:10px;
+  }
 }
 
 

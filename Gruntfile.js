@@ -113,7 +113,7 @@ module.exports = function (grunt) {
                 javascriptsDir: '<%= yeoman.app %>/scripts',
                 fontsDir: '<%= yeoman.app %>/styles/fonts',
                 importPath: '<%= yeoman.app %>/bower_components',
-                httpImagesPath: '/images',
+                httpImagesPath: '../images',
                 httpGeneratedImagesPath: '/images/generated',
                 httpFontsPath: '/styles/fonts',
                 relativeAssets: false,
@@ -126,7 +126,8 @@ module.exports = function (grunt) {
             },
             server: {
                 options: {
-                    debugInfo: true
+                    debugInfo: true,
+                    httpImagesPath: '/images',
                 }
             }
         },
@@ -214,7 +215,7 @@ module.exports = function (grunt) {
             //
             dist: {
                 files: {
-                    '<%= yeoman.dist %>/styles/main/main.css': [
+                    '<%= yeoman.dist %>/styles/main.css': [
                         '.tmp/styles/main/{,*/}*.css',
                         '<%= yeoman.app %>/styles/main/{,*/}*.css'
                     ],
@@ -272,14 +273,14 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server: [
-                'compass',
+                'compass:server',
                 'copy:styles'
             ],
             test: [
                 'copy:styles'
             ],
             dist: [
-                'compass',
+                'compass:dist',
                 'copy:styles',
                 'imagemin',
                 'svgmin',

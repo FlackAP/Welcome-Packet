@@ -18,6 +18,7 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
     vertical-align: baseline;
     outline: none;
     border: none;
+    font-family: 'Tisa';
 
     -webkit-font-smoothing: antialiased;
        -moz-font-smoothing: antialiased;
@@ -41,7 +42,7 @@ src: url("/styles/fonts/Tisa/TisaPro-Medi.otf") format("opentype");
 }
 
 .header-image {
-	background-image: url(/images/map.png);
+	background-image: url(/images/home-header.jpg);
     background-size: cover;
     background-position: 18% 51%;
     position: relative;
